@@ -1,0 +1,20 @@
+{
+    "name": "karelwintersky/livemap",
+    "authors": [
+        {
+            "name": "Karel Wintersky",
+            "email": "karel.wintersky@gmail.com"
+        }
+    ],
+    "require": {
+        "aura/autoload": "^2.0",
+        "nette/robot-loader": "^3.0",
+        "pecee/simple-router": "3.4.10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Livemap\\Classes\\"    : "engine/classes",
+            "Livemap\\Units\\"      : "engine/units"
+        }
+    }
+}
